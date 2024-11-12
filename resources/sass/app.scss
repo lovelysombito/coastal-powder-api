@@ -1,0 +1,77 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+
+// Variables
+@import 'variables';
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// @import '../../node_modules/react-table//react-table.css';
+.results {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    z-index: 3;
+    .loader, .no-result {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        z-index: 5;
+    }
+}
+
+.colour-results {
+    position: absolute;
+    width: 17%;
+    height: 200px;
+    z-index: 4;
+    .loader, .no-result {
+        position: absolute;
+        left: 32%;
+        top: 42%;
+        z-index: 6;
+    }
+}
+
+.colour-results-all {
+    position: absolute;
+    top: 37px;
+    width: 92%;
+    height: 200px;
+    z-index: 4;
+    .loader, .no-result {
+        position: absolute;
+        left: 32%;
+        top: 42%;
+        z-index: 6;
+    }
+}
+
+.loader-container {
+    position: absolute;
+    left: 50%;
+    top: 16%;
+    z-index: 4;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.dropdown-menu.show {
+    position: relative !important;
+    transform: none !important;
+}
+
+.toast {
+    position: absolute;
+    z-index: 1;
+}
+
+.toast-holder {
+    top: 0;
+    z-index: 999;
+}
